@@ -1,0 +1,17 @@
+<h1>lists!</h1>
+<h2>users:</h2>
+<br/>
+<% @cat.each do |cat| %>
+<h4><%=cat.name%></h4>
+<% end %>
+<br/>
+<h2>cats:</h2>
+<br/>
+<% @user.each do |user| %>
+<h4><%=user.username%></h4>
+<% end %>
+<br/>
+<h2>Todos:</h2>
+<% @todo.each do |todo| %>
+<h4><%=todo.task%></h4>
+<% end %>
